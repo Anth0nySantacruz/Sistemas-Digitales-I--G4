@@ -1,0 +1,128 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "12/15/2023 22:40:41"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          Proy1
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Proy1_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg CLKA;
+reg CLKA23;
+reg CLKB;
+reg CLKB22;
+reg CLRA;
+reg CLRA20;
+reg CLRB;
+reg CLRB24;
+reg SET9A;
+reg SET9A19;
+reg SET9B21;
+// wires                                               
+wire OA;
+wire OA17;
+wire OB;
+wire OB11;
+wire OC;
+wire OC12;
+wire OD;
+wire OD14;
+wire OE;
+wire OE13;
+wire OF;
+wire OF15;
+wire OG;
+wire OG16;
+wire RBON;
+wire RBON18;
+
+// assign statements (if any)                          
+Proy1 i1 (
+// port map - connection between master ports and signals/registers   
+	.CLKA(CLKA),
+	.CLKA23(CLKA23),
+	.CLKB(CLKB),
+	.CLKB22(CLKB22),
+	.CLRA(CLRA),
+	.CLRA20(CLRA20),
+	.CLRB(CLRB),
+	.CLRB24(CLRB24),
+	.OA(OA),
+	.OA17(OA17),
+	.OB(OB),
+	.OB11(OB11),
+	.OC(OC),
+	.OC12(OC12),
+	.OD(OD),
+	.OD14(OD14),
+	.OE(OE),
+	.OE13(OE13),
+	.OF(OF),
+	.OF15(OF15),
+	.OG(OG),
+	.OG16(OG16),
+	.RBON(RBON),
+	.RBON18(RBON18),
+	.SET9A(SET9A),
+	.SET9A19(SET9A19),
+	.SET9B21(SET9B21)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// CLKA
+initial
+begin
+	CLKA = 1'b0;
+end 
+
+// CLKB
+initial
+begin
+	CLKB = 1'b0;
+end 
+
+// CLRA
+initial
+begin
+	CLRA = 1'b0;
+end 
+
+// CLRB
+initial
+begin
+	CLRB = 1'b0;
+end 
+
+// SET9A19
+initial
+begin
+	SET9A19 = 1'b0;
+end 
+endmodule
+

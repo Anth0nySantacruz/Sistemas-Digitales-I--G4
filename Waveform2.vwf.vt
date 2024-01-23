@@ -1,0 +1,428 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "12/16/2023 00:04:14"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          prueba2
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module prueba2_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg CLKA;
+reg CLRA;
+// wires                                               
+wire OA;
+wire OB;
+wire OC;
+wire OD;
+wire OE;
+wire OF;
+wire OG;
+wire RBON;
+
+// assign statements (if any)                          
+prueba2 i1 (
+// port map - connection between master ports and signals/registers   
+	.CLKA(CLKA),
+	.CLRA(CLRA),
+	.OA(OA),
+	.OB(OB),
+	.OC(OC),
+	.OD(OD),
+	.OE(OE),
+	.OF(OF),
+	.OG(OG),
+	.RBON(RBON)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// CLKA
+initial
+begin
+	CLKA = 1'b0;
+	CLKA = #1168 1'b1;
+	# 2866;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #3800 1'b1;
+		# 2866;
+	end
+	CLKA = 1'b0;
+	CLKA = #4368 1'b1;
+	CLKA = #3200 1'b0;
+	CLKA = #5066 1'b1;
+	CLKA = #2331 1'b0;
+	CLKA = #2600 1'b1;
+	CLKA = #2400 1'b0;
+	CLKA = #2600 1'b1;
+	CLKA = #69 1'b0;
+	CLKA = #2822 1'b1;
+	# 2533;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #4133 1'b1;
+		# 2533;
+	end
+	CLKA = 1'b0;
+	CLKA = #5976 1'b1;
+	CLKA = #8200 1'b0;
+	CLKA = #9461 1'b1;
+	CLKA = #1550 1'b0;
+	CLKA = #3450 1'b1;
+	CLKA = #1550 1'b0;
+	CLKA = #7194 1'b1;
+	CLKA = #10400 1'b0;
+	CLKA = #4355 1'b1;
+	CLKA = #2450 1'b0;
+	CLKA = #2550 1'b1;
+	CLKA = #2450 1'b0;
+	CLKA = #1727 1'b1;
+	CLKA = #1586 1'b0;
+	CLKA = #6800 1'b1;
+	CLKA = #3200 1'b0;
+	CLKA = #6800 1'b1;
+	CLKA = #1614 1'b0;
+	CLKA = #1148 1'b1;
+	CLKA = #9400 1'b0;
+	CLKA = #10421 1'b1;
+	# 1433;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #1900 1'b1;
+		# 1433;
+	end
+	CLKA = 1'b0;
+	CLKA = #1988 1'b1;
+	CLKA = #2450 1'b0;
+	CLKA = #2550 1'b1;
+	CLKA = #2450 1'b0;
+	CLKA = #4631 1'b1;
+	CLKA = #4100 1'b0;
+	CLKA = #2763 1'b1;
+	CLKA = #2624 1'b0;
+	CLKA = #4900 1'b1;
+	CLKA = #2476 1'b0;
+	CLKA = #960 1'b1;
+	CLKA = #2850 1'b0;
+	CLKA = #2150 1'b1;
+	CLKA = #2850 1'b0;
+	CLKA = #4698 1'b1;
+	CLKA = #3400 1'b0;
+	CLKA = #6600 1'b1;
+	CLKA = #3400 1'b0;
+	CLKA = #3092 1'b1;
+	CLKA = #2487 1'b0;
+	CLKA = #4500 1'b1;
+	CLKA = #5500 1'b0;
+	CLKA = #4500 1'b1;
+	CLKA = #3013 1'b0;
+	CLKA = #3579 1'b1;
+	CLKA = #7600 1'b0;
+	CLKA = #11459 1'b1;
+	# 3199;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #3467 1'b1;
+		# 3199;
+	end
+	CLKA = 1'b0;
+	CLKA = #2215 1'b1;
+	CLKA = #4900 1'b0;
+	CLKA = #5100 1'b1;
+	CLKA = #4900 1'b0;
+	CLKA = #3716 1'b1;
+	# 2277;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #4067 1'b1;
+		# 2599;
+	end
+	CLKA = 1'b0;
+	CLKA = #4067 1'b1;
+	CLKA = #324 1'b0;
+	CLKA = #1778 1'b1;
+	CLKA = #4400 1'b0;
+	CLKA = #5600 1'b1;
+	CLKA = #4400 1'b0;
+	CLKA = #5599 1'b1;
+	# 1533;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #1800 1'b1;
+		# 1533;
+	end
+	CLKA = 1'b0;
+	CLKA = #24 1'b1;
+	CLKA = #262 1'b0;
+	CLKA = #2650 1'b1;
+	CLKA = #2350 1'b0;
+	CLKA = #2650 1'b1;
+	CLKA = #2088 1'b0;
+	CLKA = #2904 1'b1;
+	CLKA = #8000 1'b0;
+	CLKA = #13182 1'b1;
+	# 2333;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #4333 1'b1;
+		# 2333;
+	end
+	CLKA = 1'b0;
+	CLKA = #249 1'b1;
+	# 152;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #2034 1'b1;
+		# 1299;
+	end
+	CLKA = 1'b0;
+	CLKA = #2034 1'b1;
+	CLKA = #5460 1'b0;
+	CLKA = #4300 1'b1;
+	CLKA = #5700 1'b0;
+	CLKA = #4300 1'b1;
+	CLKA = #4526 1'b0;
+	CLKA = #9200 1'b1;
+	CLKA = #7662 1'b0;
+	CLKA = #1446 1'b1;
+	CLKA = #4100 1'b0;
+	CLKA = #5900 1'b1;
+	CLKA = #4100 1'b0;
+	CLKA = #7515 1'b1;
+	CLKA = #9000 1'b0;
+	CLKA = #7939 1'b1;
+	# 123;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #2000 1'b1;
+		# 1333;
+	end
+	CLKA = 1'b0;
+	CLKA = #2000 1'b1;
+	CLKA = #1211 1'b0;
+	CLKA = #627 1'b1;
+	# 1799;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #1534 1'b1;
+		# 1799;
+	end
+	CLKA = 1'b0;
+	CLKA = #908 1'b1;
+	CLKA = #1460 1'b0;
+	CLKA = #6000 1'b1;
+	CLKA = #2926 1'b0;
+	CLKA = #1800 1'b1;
+	CLKA = #1533 1'b0;
+	CLKA = #1800 1'b1;
+	CLKA = #1533 1'b0;
+	CLKA = #1800 1'b1;
+	CLKA = #3892 1'b0;
+	CLKA = #6300 1'b1;
+	CLKA = #3700 1'b0;
+	CLKA = #6300 1'b1;
+	CLKA = #956 1'b0;
+	CLKA = #1237 1'b1;
+	# 2399;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #4267 1'b1;
+		# 2399;
+	end
+	CLKA = 1'b0;
+	CLKA = #3032 1'b1;
+	CLKA = #2334 1'b0;
+	CLKA = #6400 1'b1;
+	CLKA = #3600 1'b0;
+	CLKA = #6400 1'b1;
+	CLKA = #1266 1'b0;
+	CLKA = #343 1'b1;
+	# 1066;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #2267 1'b1;
+		# 1066;
+	end
+	CLKA = 1'b0;
+	CLKA = #5335 1'b1;
+	# 2133;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #4533 1'b1;
+		# 2133;
+	end
+	CLKA = 1'b0;
+	CLKA = #3475 1'b1;
+	# 3399;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #3267 1'b1;
+		# 3399;
+	end
+	CLKA = 1'b0;
+	CLKA = #1844 1'b1;
+	# 1199;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #2134 1'b1;
+		# 1199;
+	end
+	CLKA = 1'b0;
+	CLKA = #2263 1'b1;
+	CLKA = #4200 1'b0;
+	CLKA = #7977 1'b1;
+	CLKA = #4100 1'b0;
+	CLKA = #2670 1'b1;
+	CLKA = #126 1'b0;
+	CLKA = #4700 1'b1;
+	CLKA = #5622 1'b0;
+	CLKA = #2950 1'b1;
+	CLKA = #2050 1'b0;
+	CLKA = #2950 1'b1;
+	CLKA = #1810 1'b0;
+	CLKA = #6400 1'b1;
+	CLKA = #3600 1'b0;
+	CLKA = #6400 1'b1;
+	CLKA = #3392 1'b0;
+	CLKA = #3034 1'b1;
+	CLKA = #1500 1'b0;
+	CLKA = #3500 1'b1;
+	CLKA = #1500 1'b0;
+	CLKA = #466 1'b1;
+	CLKA = #8228 1'b0;
+	CLKA = #9000 1'b1;
+	CLKA = #2772 1'b0;
+	CLKA = #768 1'b1;
+	# 1266;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #2067 1'b1;
+		# 1266;
+	end
+	CLKA = 1'b0;
+	CLKA = #1993 1'b1;
+	# 1999;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #4667 1'b1;
+		# 1999;
+	end
+	CLKA = 1'b0;
+	CLKA = #5032 1'b1;
+	CLKA = #5600 1'b0;
+	CLKA = #4400 1'b1;
+	CLKA = #5600 1'b0;
+	CLKA = #3344 1'b1;
+	CLKA = #5421 1'b0;
+	CLKA = #12800 1'b1;
+	CLKA = #1779 1'b0;
+	CLKA = #1227 1'b1;
+	CLKA = #3700 1'b0;
+	CLKA = #6300 1'b1;
+	CLKA = #3700 1'b0;
+	CLKA = #5073 1'b1;
+	CLKA = #2137 1'b0;
+	CLKA = #11200 1'b1;
+	CLKA = #6663 1'b0;
+	CLKA = #157 1'b1;
+	CLKA = #2200 1'b0;
+	CLKA = #2800 1'b1;
+	CLKA = #2200 1'b0;
+	CLKA = #2643 1'b1;
+	CLKA = #1462 1'b0;
+	CLKA = #4100 1'b1;
+	CLKA = #5900 1'b0;
+	CLKA = #4100 1'b1;
+	CLKA = #6548 1'b0;
+	CLKA = #4400 1'b1;
+	CLKA = #6671 1'b0;
+	CLKA = #3400 1'b1;
+	CLKA = #3266 1'b0;
+	CLKA = #3400 1'b1;
+	CLKA = #3266 1'b0;
+	CLKA = #3400 1'b1;
+	CLKA = #87 1'b0;
+	CLKA = #2239 1'b1;
+	# 2666;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #4000 1'b1;
+		# 2666;
+	end
+	CLKA = 1'b0;
+	CLKA = #2372 1'b1;
+	# 1499;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #1834 1'b1;
+		# 1499;
+	end
+	CLKA = 1'b0;
+	CLKA = #1226 1'b1;
+	CLKA = #875 1'b0;
+	CLKA = #8400 1'b1;
+	CLKA = #18545 1'b0;
+	CLKA = #10800 1'b1;
+	CLKA = #1380 1'b0;
+	CLKA = #856 1'b1;
+	# 1266;
+	repeat(2)
+	begin
+		CLKA = 1'b0;
+		CLKA = #2067 1'b1;
+		# 1266;
+	end
+	CLKA = 1'b0;
+end 
+
+// CLRA
+initial
+begin
+	CLRA = 1'b0;
+end 
+endmodule
+
