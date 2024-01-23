@@ -1,0 +1,138 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mega_/Desktop/Prueba1/simulation/qsim
+vProy1
+Z1 !s110 1702699322
+!i10b 1
+!s100 PK?ITD2dI7_2[X<:QAAfa0
+ImNc@8]94czfaFS`[<bI_62
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702699320
+Z3 8Proy1.vo
+Z4 FProy1.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1702699322.000000
+Z8 !s107 Proy1.vo|
+Z9 !s90 -work|work|Proy1.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@proy1
+vProy1_vlg_vec_tst
+R1
+!i10b 1
+!s100 _o@SVEY4SYfg9ocCJWHP[1
+I2B5db`J?LOV4Fa?m]nnm;1
+R2
+R0
+w1702699317
+Z12 8Waveform2.vwf.vt
+Z13 FWaveform2.vwf.vt
+Z14 L0 30
+R6
+r1
+!s85 0
+31
+R7
+Z15 !s107 Waveform2.vwf.vt|
+Z16 !s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+n@proy1_vlg_vec_tst
+vprueba2
+Z17 !s110 1702703061
+!i10b 1
+!s100 hQl<YYajVU::bhk_;P20g0
+I5PeXU0:kUFLB63@?1gnE_1
+R2
+R0
+w1702703058
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z18 !s108 1702703061.000000
+R8
+R9
+!i113 1
+R10
+R11
+vprueba2_vlg_vec_tst
+R17
+!i10b 1
+!s100 ZnfS1@@Ucl<OLLM4OoDLK1
+I=Hlg6jko;VNBzA?o;G1EA3
+R2
+R0
+w1702703054
+R12
+R13
+R14
+R6
+r1
+!s85 0
+31
+R18
+R15
+R16
+!i113 1
+R10
+R11
+vprueba7493
+Z19 !s110 1703438933
+!i10b 1
+!s100 8REM9H3:06g8ho`3jJXQA3
+IfMNVAZNEZ1mOn=>WbRzRc3
+R2
+R0
+w1703438920
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1703438930.000000
+R8
+R9
+!i113 1
+R10
+R11
+vprueba7493_vlg_vec_tst
+R19
+!i10b 1
+!s100 54?44?b@dmSM5UQd6`zMc2
+I3dF11`hf[6i?;[N2DYA>N1
+R2
+R0
+w1703438915
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+R14
+R6
+r1
+!s85 0
+31
+!s108 1703438933.000000
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R10
+R11
