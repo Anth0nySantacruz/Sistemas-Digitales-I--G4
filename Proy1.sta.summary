@@ -1,0 +1,53 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'RESTA'
+Slack : -0.767
+TNS   : -4.202
+
+Type  : Slow 1100mV 85C Model Hold 'RESTA'
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'RESTA'
+Slack : -0.477
+TNS   : -5.239
+
+Type  : Slow 1100mV 0C Model Setup 'RESTA'
+Slack : -0.756
+TNS   : -4.086
+
+Type  : Slow 1100mV 0C Model Hold 'RESTA'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'RESTA'
+Slack : -0.510
+TNS   : -5.323
+
+Type  : Fast 1100mV 85C Model Setup 'RESTA'
+Slack : -0.167
+TNS   : -0.209
+
+Type  : Fast 1100mV 85C Model Hold 'RESTA'
+Slack : -0.016
+TNS   : -0.016
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'RESTA'
+Slack : -0.488
+TNS   : -3.197
+
+Type  : Fast 1100mV 0C Model Setup 'RESTA'
+Slack : -0.118
+TNS   : -0.118
+
+Type  : Fast 1100mV 0C Model Hold 'RESTA'
+Slack : -0.023
+TNS   : -0.023
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'RESTA'
+Slack : -0.475
+TNS   : -3.146
+
+------------------------------------------------------------
